@@ -55,7 +55,7 @@ def menu():
 \033[1;33m     	3.\033[1;m Dead
 \033[1;33m     	4.\033[1;m IP
 \033[1;36m       99. About
-	"""
+	print"""
 
 	OPT = raw_input("\033[1;35m  Select:\033[1;m ")
 	if OPT == "1":
